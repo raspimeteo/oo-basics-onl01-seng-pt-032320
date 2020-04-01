@@ -1,5 +1,5 @@
 class Shoe
-    attr_accessor :color, :material, :size
+    attr_accessor :color, :material, :size, :condition
     
     attr_reader :brand
 
@@ -9,13 +9,7 @@ class Shoe
     
 
 
-    def condition=(condition)
-        @condition = condition
-    end
 
-    def condition
-        @condition
-    end
 
     def cobble
         @condition = 'new'
